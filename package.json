@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/JV-conseil/jekyll-theme-read-the-docs#readme",
   "dependencies": {
-    "@primer/css": "^15.2.0",
+    "@primer/css": "^20.8.3",
     "dompurify": "^3.0.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.6.4",
