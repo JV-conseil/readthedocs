@@ -3,13 +3,6 @@ description: Read the Docs like Jekyll Theme for GitHub Pages
 
 theme: null
 
-debug:
-  compress: true
-  dist: false
-  shortcodes: true
-
-url: http://127.0.0.1:4000
-
 google:
   site_verification: ChPjQbKFflPAwOF9uuYRLEodZBgPjW5CISg0gSsViN0
 
@@ -47,3 +40,26 @@ exclude:
   - jekyll-theme-read-the-docs.gemspec
   - requirements.txt
   - webpack.config.js
+
+# Dev
+# ------------------------------------------------------------------------------
+
+debug:
+  compress: true
+  dist: false
+  shortcodes: true
+
+url: http://127.0.0.1:4000
+
+sass:
+  # Troubleshooting Jekyll errors
+  # See <https://primer.style/css/getting-started#troubleshooting-jekyll-errors>
+  # implementation: sass-embedded
+  # Where sass should look for other scss
+  load_paths:
+    - _sass/
+    - node_modules/
+  # Where you keep your scss files
+  sass_dir: assets/css/
+  style: compressed
+  verbose: true

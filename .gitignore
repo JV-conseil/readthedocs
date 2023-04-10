@@ -1,4 +1,5 @@
 # jekyll
+# See <https://github.com/github/gitignore/blob/main/Jekyll.gitignore>
 _site/
 .sass-cache/
 .jekyll-cache/
