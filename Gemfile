@@ -47,6 +47,9 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 # Development
 group :development do
   gem "faraday-retry", "~> 2.0"
-  gem "sass", "~> 3.7"
   gem "webrick", "~> 1.8"
+  # Troubleshooting Jekyll errors
+  # See <https://primer.style/css/getting-started#troubleshooting-jekyll-errors>
+  # gem 'jekyll-sass-converter', github: 'jekyll/jekyll-sass-converter'
+  # gem 'sass-embedded'
 end

@@ -16,10 +16,11 @@
 
 _jvcl_::gem_update() {
   local _gem _gems=("bundler")
+  # gem update --system
   for _gem in "${_gems[@]}"; do
     _jvcl_::h1 "Checking if ${_gem} is installed..."
     gem info "${_gem}" || gem install "${_gem}"
-    gem update "${_gem}"
+    gem update "${_gem}" || :
   done
 }
 
