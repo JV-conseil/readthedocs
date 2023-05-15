@@ -31,7 +31,7 @@
     "@primer/css": "^15.2.0",
     "dompurify": "^3.0.2",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.6.4",
+    "jquery": "^3.7.0",
     "jquery.toc": "^0.4.0",
     "lato-font": "^3.0.0",
     "material-design-icons": "^3.0.1",
