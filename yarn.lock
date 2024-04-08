@@ -3430,10 +3430,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dompurify@npm:^3.0.5, dompurify@npm:^3.0.9":
+"dompurify@npm:^3.0.5":
   version: 3.0.9
   resolution: "dompurify@npm:3.0.9"
   checksum: 10c0/4da4b86e4010822d01392e25f0686367a4f1e1048a4681178c725de9a817410c5650c17b326c08a018f79437b3177a4bdc7faf4c37b0cf2547bc280aa2038a16
+  languageName: node
+  linkType: hard
+
+"dompurify@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "dompurify@npm:3.1.0"
+  checksum: 10c0/8adbcc6de954bd0486ae033489c6b52f5aece356963734b82b6d28f9f6ba79a846c4d23085679c0423e81fd8ac8f804dc8c2dfcc0e03e86db2cf0da3e33ad481
   languageName: node
   linkType: hard
 
@@ -4562,7 +4569,7 @@ __metadata:
     babel-loader: "npm:^9.1.3"
     css-loader: "npm:^6.10.0"
     depcheck: "npm:^1.4.7"
-    dompurify: "npm:^3.0.9"
+    dompurify: "npm:^3.1.0"
     eslint: "npm:^8.57.0"
     eslint-config-prettier: "npm:^9.1.0"
     font-awesome: "npm:^4.7.0"
