@@ -25,6 +25,7 @@ plugins:
   - jemoji
   - jekyll-avatar
   - jekyll-mentions
+  - jekyll-github-metadata
 
 exclude:
   - .bash
